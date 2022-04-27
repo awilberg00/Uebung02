@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+ <head>
+     <meta name="author" content="Arne Wilberg">
+     <meta name="description" content="This is a website to calculate distances.">
+ <script src="cities.js"></script>
+ <script src="point.js"></script>
+ <script src="poi.js"> </script>
+ <script defer src="externalJS.js"></script>
+ <title id="id02"></title>
+ </head>
+
+ <body>
+ <div id="uploadform">    
+ <h1> Standort angeben </h1>
+ <input type="file" id="uploadfield">
+ <h1> Standort abfragen </h1> 
+ <button onclick="getLocation()"> Hier klicken </button>
+ <p id="demo"></p>
+</div>
+
+<div id="distances" style="display: none;">
+<h1> Entfernungen </h1>
+ <ul id="id01">
+ <li> </li>
+</ul>
+</div>
+</body>
+
+</html>

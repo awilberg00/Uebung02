@@ -1,0 +1,10 @@
+{
+    "type": "Feature", 
+    "geometry": {
+        "type": "Point",
+        "coordinates": [7.595737, 51.969508]
+    },
+    "properties": {
+        "name": "Test"
+    }
+} 
